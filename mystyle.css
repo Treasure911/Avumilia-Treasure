@@ -1,0 +1,68 @@
+.navbar{
+    background-color: cornflowerblue;
+    padding: 20px;
+    flex-direction: row;
+    font-size: 30px;
+    font-style: italic;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.homepage{
+    text-decoration: none;
+    text-decoration: none;
+    background-color: lightgrey;
+}
+.mystyle{
+    display: flex;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.list{
+    list-style: none;
+}
+.img{
+    width: auto;
+    height: 100px;
+}
+.logo{
+    width: auto;
+    height: 400px;
+}
+.backgroundimage{
+    background-image: url(Images/women\ on\ computer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contactus{
+    background-color: lightskyblue;
+}
+.design{
+    display: flex;
+    background-color: lightyellow;
+    font-style: inherit;
+    padding-left: 20px;
+  gap: 40px;
+}
+.space{
+    margin: 10px;
+}
+@media(max-width: 768px){
+    .navbar {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .navbar{
+        display: none;
+    }
+}

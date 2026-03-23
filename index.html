@@ -4,47 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    
+    <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-    <nav>
-        <div>
-            <h1>TREASURE VISUALS</h1>
-            <img src="logo.jpg" alt="logo">
-        </div>
-        <hr>
-        <section>
+    <nav class="navbar">
+            <div>
+                <img src="Images/logo.jpg" alt="" class="img">
+            </div>
           <div>
-            <ul>
-                <li>
-                <a href="">HOME</a>
+            <ul class="mystyle">
+                <li class="list">
+                <a  href="#home">
+                    HOME</a>
                 </li>
-                <li>
-                <a href="">ABOUT US</a>
+                <li class="list">
+                <a href="#aboutus">
+                    ABOUT US</a>
                 </li>
-                <li>
-                    <a href="">SERVICES</a>
+                <li  class="list">
+                    <a href="#services">
+                        SERVICES</a>
                 </li>
-                <li>
-                <a href="">DIGITAL JOBS</a>
-                </li>
-                <li>
-                  <a href="">CONTACT US</a>
+                <li class="list">
+                <a href="#digitaljobs">
+                    DIGITAL JOBS</a>
                 </li>
                 </ul>
           </div>
-          <hr>
+          <div>
+            <button>contactus</button>
+        </div>
+    </nav>
+    <section class="design">
+           <div class="space">
+                <img src="Images/women on computer.jpg" alt="logo"class="logo" class="computer">
+           </div>
+           <div>
+            <h1>WELCOME TO TREASURE VISUALS!</h1>
+            <h1>GRAPHIC DESIGNERS</h1>
+            <br>
+            <h1>Where creative ideas turn into visual Treasures</h1>
+           </div>
         </section>
-        <section>
-            <div>
-                <h1>HOME PAGE</h1>
-                <h2>welcome to our website !</h2>
-                <img src="logo.jpg" alt="logo">
+        <section id="homepage">
+            <div class="homepage">
+             <h1>HOME PAGE</h1>
+                <img src="Images/design image.png" alt="logo" class="logo">
                 <h1>Treasure Visuals where creativity becomes visual treasures</h1>
                 <ul>
                 <li>
                  <h2>Teasure Visuals is a graphic designing company that deals in creative desiging like making logos, posters,labels, etc.</h2>  
                 </li>
                 </ul>
+               
+                
                 <h2>OUR FOCUS AREAS</h2>
                 <li>
                     <P>Technology Inclusion</P>
@@ -58,20 +73,13 @@
                 </button>
             
             </div>
-            <br>
-
-
-        </section>
-        <footer>
-            all rights reserved 2026
-        </footer>
-        <hr>
-        <section>
-            <div>
+            <section id="sevices " class="service">
+<div>
                 <h1>ABOUT US</h1>
                 <ul>
                     <li>
-                        <h2>Our Goals</h2>
+                        <h2>MISSION AND VISION</h2>
+                        Creating elegant designs world wide
                     </li>
                 </ul>
         
@@ -79,26 +87,25 @@
                     </li>
                 </ol>
             </div>
-        </section>
-        <hr>
-        <div>
-            <h1>SERVICES</h1>
+            <div>
+                 <h1>SERVICES</h1>
             <li>
                 making logos, flyers
             </li>
             <br>
             <button>learn more</button>
-        </div>
-        <hr>
+            </div>
+        </section>
         <div>
-            <br>
+            <section id="contactus" class="contactus">
+            
             <h1>CONTACT US</h1>
             <table>info@treasurevisuals.com</table>
             <p>0741826691</p>
             <h4>contect with us on</h4>
             <ol>
             <li>
-                    Linkedin
+                    Linkedin 
             </li>
             <li>
                 Instagram
@@ -113,12 +120,14 @@
         <ul>
             <li>
                 @ Treasure Visuals.
+                
             </li>
         </ul>
-            
-        </div>
+</div>
+           </section> 
         
-    </nav>
+        
+    
     
 </body>
 </html>
